@@ -1,0 +1,17 @@
+{
+  "name": "url-shortening-api-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend Mentor - URL shortening API landing page",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "devDependencies": {
+    "prettier": "1.19.1",
+    "live-server": "1.2.1"
+  },
+  "keywords": [],
+  "author": "Cristian Trifan",
+  "homepage": "https://frontend-mentor.github.io/url-shortening-api-landing-page/",
+  "license": "MIT"
+}

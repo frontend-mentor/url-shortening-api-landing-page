@@ -1,0 +1,42 @@
+:root {
+  /* Primary */
+  --cyan: hsl(180, 66%, 49%);
+  --dark-violet: hsl(257, 27%, 26%);
+
+  /* Secondary */
+  --red: hsl(0, 87%, 67%);
+
+  /* Neutral */
+  --gray: hsl(0, 0%, 75%);
+  --grayish-violet: hsl(257, 7%, 63%);
+  --very-dark-blue: hsl(255, 11%, 22%);
+  --very-dark-violet: hsl(260, 8%, 14%);
+
+  /* Typography */
+  --font-family-sans-serif: 'Poppins', sans-serif;
+  --font-weight-regular: 500;
+  --font-weight-bold: 700;
+}
+
+body {
+  font: 500 18px/1.5 var(--font-family-sans-serif);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: var(--font-family-sans-serif);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  font-family: var(--font-family-sans-serif);
+}

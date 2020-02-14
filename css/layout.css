@@ -1,0 +1,13 @@
+.root {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: minmax(15px, 165px) 1fr minmax(15px, 165px);
+}
+
+@media (max-width: 1439px) {
+  .root {
+    grid-template-columns: 15px 1fr 15px;
+  }
+}
